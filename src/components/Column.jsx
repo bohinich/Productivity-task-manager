@@ -25,7 +25,7 @@ export default function Column({ title, tasks, onEdit, onDelete, onAdd }) {
 
       <div className="flex flex-col gap-2.5">
         {tasks.length === 0 ? (
-          <p className="text-gray-300 text-sm text-center py-6 border-2 border-dashed border-gray-200 rounded-xl">
+          <p className="text-gray-400 text-sm text-center py-6 border-2 border-dashed border-gray-200 rounded-xl">
             No tasks here
           </p>
         ) : (
